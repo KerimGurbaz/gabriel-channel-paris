@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  line-height: 0;
+}
+
+/* inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* colors  */
+:root {
+  /* primary */
+  --green: hsla(157, 36%, 37%, 1);
+  --dark-green-hover: hsla(157, 43%, 18%, 1);
+  --cream: hsla(30, 38%, 92%, 1);
+  /* neutral */
+  --white: hsla(0, 0%, 100%, 1);
+  --black: hsla(212, 21%, 14%, 1);
+  --gray: rgb(91, 97, 121);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  line-height: 1.3;
+  text-rendering: optimizeSpeed;
+}
